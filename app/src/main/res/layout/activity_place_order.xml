@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlaceOrder">
+
+    <TextView
+        android:id="@+id/orderedItemName"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_height="45dp"
+        android:background="@drawable/placed_btn_layout"
+        android:text="order item" />
+
+    <TextView
+        android:id="@+id/OrderTotalValue"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_height="45dp"
+        android:background="@drawable/placed_btn_layout"
+        android:text="order price"  />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="personal information" />
+
+    <EditText
+        android:id="@+id/custName"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="enter your name"
+        android:background="@drawable/user_info_layout"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/custPhoneNumber"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="enter your phone number"
+        android:background="@drawable/user_info_layout"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/custAddress"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="enter your address"
+        android:background="@drawable/user_info_layout"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/paymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="* Currently, we are only accepting cash-on-delivery" />
+
+    <Button
+        android:id="@+id/placedOrderBtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/black"
+        android:text="place order" />
+</LinearLayout>

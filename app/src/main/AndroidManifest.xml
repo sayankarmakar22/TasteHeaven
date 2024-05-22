@@ -13,6 +13,15 @@
         android:theme="@style/Theme.A1Restau"
         tools:targetApi="31">
         <activity
+            android:name=".ConfirmedOrderPage"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceOrder"
+            android:exported="false" />
+        <activity
+            android:name=".explore_item_layout"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

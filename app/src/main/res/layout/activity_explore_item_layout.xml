@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".explore_item_layout">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backToHome"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:text="Delicious Items 🤤"
+            android:textColor="#E16A11"
+            android:textSize="36dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="275dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:backgroundTint="#D4E69D"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/biriyani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="185dp"
+                android:text="Chicken Biriyani"
+                android:textColor="#F80F0F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:text="Price : 330" />
+
+            <Button
+                android:id="@+id/buyChicken"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="225dp"
+                android:backgroundTint="#FF6E40"
+                android:text="Buy" />
+
+            <ImageView
+                android:id="@+id/biriyaniImage"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="top"
+                android:src="@drawable/biriyani" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="275dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#8FCAD3"
+            android:outlineAmbientShadowColor="@color/black"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/cripsyChickenImage"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="-10dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/thali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="185dp"
+                android:text="Bengali Thali"
+                android:textColor="#F80F0F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/thaliPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:text="Price : 330" />
+
+            <Button
+                android:id="@+id/buyThali"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="225dp"
+                android:backgroundTint="#FF6E40"
+                android:text="Buy" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="275dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:backgroundTint="#8FCAD3"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/mutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="185dp"
+                android:text="Mutton Biriyani"
+                android:textColor="#F80F0F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/muttonPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:text="Price : 550" />
+
+            <Button
+                android:id="@+id/buyMutton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="225dp"
+                android:backgroundTint="#FF6E40"
+                android:text="Buy" />
+            <ImageView
+                android:id="@+id/muttonBiriyaniImage"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="top"
+                android:src="@drawable/mutton_biriyani" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="275dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#D4E69D"
+            android:outlineAmbientShadowColor="@color/black"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/chap"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="-4.5dp"
+                android:layout_marginLeft="-10dp"
+                android:src="@drawable/chap" />
+
+            <TextView
+                android:id="@+id/chapName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="185dp"
+                android:text="Chicken Chap"
+                android:textColor="#F80F0F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/chapPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:text="Price : 150" />
+
+            <Button
+                android:id="@+id/buyChap"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="225dp"
+                android:backgroundTint="#FF6E40"
+                android:text="Buy" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#66CD2F"
+        android:text="More Items will be available soon...." />
+
+</LinearLayout>
